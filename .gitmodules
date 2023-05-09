@@ -1,0 +1,9 @@
+[submodule "lora_gateway"]
+	path = lora_gateway
+	url = ../lora_gateway
+[submodule "packet_forwarder"]
+	path = packet_forwarder
+	url = ../packet_forwarder
+[submodule "ttybus"]
+	path = ttybus
+	url = ../ttybus

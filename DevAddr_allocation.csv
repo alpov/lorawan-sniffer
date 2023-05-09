@@ -1,0 +1,206 @@
+0x000000;Private/experimental nodes;00000000/7
+0x000001;Private/experimental nodes;02000000/7
+0x000002;Actility;04000000/7
+0x000003;Proximus;06000000/7
+0x000004;Swisscom;08000000/7
+0x000005;Reserved for future use;0A000000/7
+0x000006;Reserved for future use;0C000000/7
+0x000007;Bouygues Telecom;0E000000/7
+0x000008;Orbiwise;10000000/7
+0x000009;SENET;12000000/7
+0x00000A;KPN;14000000/7
+0x00000B;EveryNet;16000000/7
+0x00000C;Reserved for future use;18000000/7
+0x00000D;SK Telecom;1A000000/7
+0x00000E;SagemCom;1C000000/7
+0x00000F;Orange;1E000000/7
+0x000010;A2A Smart City;20000000/7
+0x000011;Reserved for future use;22000000/7
+0x000012;Kerlink;24000000/7
+0x000013;The Things Network;26000000/7
+0x000014;Reserved for future use;28000000/7
+0x000015;Cisco Systems;2A000000/7
+0x000016;Reserved for future use;2C000000/7
+0x000017;MultiTech Systems;2E000000/7
+0x000018;Loriot;30000000/7
+0x000019;NNNCo;32000000/7
+0x00001A;Reserved for future use;34000000/7
+0x00001B;Reserved for future use;36000000/7
+0x00001C;Reserved for future use;38000000/7
+0x00001D;Reserved for future use;3A000000/7
+0x00001E;Reserved for future use;3C000000/7
+0x00001F;Axatel;3E000000/7
+0x000020;Reserved for future use;40000000/7
+0x000021;Reserved for future use;42000000/7
+0x000022;Comcast;44000000/7
+0x000023;Ventia;46000000/7
+0x000024;Reserved for future use;48000000/7
+0x000025;Reserved for future use;4A000000/7
+0x000026;Reserved for future use;4C000000/7
+0x000027;Reserved for future use;4E000000/7
+0x000028;Reserved for future use;50000000/7
+0x000029;Reserved for future use;52000000/7
+0x00002A;Reserved for future use;54000000/7
+0x00002B;Reserved for future use;56000000/7
+0x00002C;Reserved for future use;58000000/7
+0x00002D;Reserved for future use;5A000000/7
+0x00002E;Reserved for future use;5C000000/7
+0x00002F;Reserved for future use;5E000000/7
+0x000030;SoftBank;60000000/7
+0x000031;Reserved for future use;62000000/7
+0x000032;Reserved for future use;64000000/7
+0x000033;Reserved for future use;66000000/7
+0x000034;Reserved for future use;68000000/7
+0x000035;Shenzhen Tencent Computer Systems Company Limited;6A000000/7
+0x000036;Netze BW GmbH;6C000000/7
+0x000037;Tektelic;6E000000/7
+0x000038;Charter Communicaton;70000000/7
+0x000039;Amazon;72000000/7
+0x600000;RESERVED;E0000000/15
+0x600001;Digita;E0020000/15
+0x600002;Netmore;E0040000/15
+0x600003;QuaeNet Inc.;E0060000/15
+0x600004;eleven-x;E0080000/15
+0x600005;IoT Network AS;E00A0000/15
+0x600006;Reserved for future use;E00C0000/15
+0x600007;EDF;E00E0000/15
+0x600008;Unidata;E0100000/15
+0x600009;Reserved for future use;E0120000/15
+0x60000A;Oeresundskraft;E0140000/15
+0x60000B;Reserved for future use;E0160000/15
+0x60000C;Reserved for future use;E0180000/15
+0x60000D;Reserved for future use;E01A0000/15
+0x60000E;Spark;E01C0000/15
+0x60000F;Reserved for future use;E01E0000/15
+0x600010;Senet;E0200000/15
+0x600011;Reserved for future use;E0220000/15
+0x600012;Reserved for future use;E0240000/15
+0x600013;Actility;E0260000/15
+0x600014;Kerlink;E0280000/15
+0x600015;Reserved for future use;E02A0000/15
+0x600016;Cisco;E02C0000/15
+0x600017;Schneider Electric;E02E0000/15
+0x600018;Minol ZENNER Connect GmbH;E0300000/15
+0x600019;Reserved for future use;E0320000/15
+0x60001A;NEC Corporation;E0340000/15
+0x60001B;Shenzhen Tencent Computer Systems Company Limited;E0360000/15
+0x60001C;MachineQ/Comcast;E0380000/15
+0x60001D;NTT (Nippon Telephone and Telegraph);E03A0000/15
+0x60001E;Reserved for future use;E03C0000/15
+0x60001F;KPN;E03E0000/15
+0x600020;Spectrum;E0400000/15
+0x600021;Microshare Inc.;E0420000/15
+0x600022;Reserved for future use;E0440000/15
+0x600023;Reserved for future use;E0460000/15
+0x600024;Netze BW GmbH;E0480000/15
+0x600025;Tektelic;E04A0000/15
+0x600026;Reserved for future use;E04C0000/15
+0x600027;Birdz;E04E0000/15
+0x600028;Charter Communication;E0500000/15
+0x600029;Machines Talk;E0520000/15
+0x60002A;Neptune Technology Group;E0540000/15
+0x60002B;Amazon;E0560000/15
+0x60002C;myDevices;E0580000/15
+0x60002D;Decentralized Wireless Foundation Inc;E05A0000/15
+0x60002E;Eutelsat S.A.;E05C0000/15
+0xC00000;RESERVED;FC000000/22
+0xC00001;Reserved for future use;FC000400/22
+0xC00002;ResIOT;FC000800/22
+0xC00003;SYSDEV;FC000C00/22
+0xC00004;Reserved for future use;FC001000/22
+0xC00005;Macnica;FC001400/22
+0xC00006;Reserved for future use;FC001800/22
+0xC00007;Reserved for future use;FC001C00/22
+0xC00008;Definium Technologies;FC002000/22
+0xC00009;Reserved for future use;FC002400/22
+0xC0000A;SenseWay;FC002800/22
+0xC0000B;3S;FC002C00/22
+0xC0000C;Reserved for future use;FC003000/22
+0xC0000D;Packetworx;FC003400/22
+0xC0000E;Reserved for future use;FC003800/22
+0xC0000F;Antenna Hungaria Co;FC003C00/22
+0xC00010;Reserved for future use;FC004000/22
+0xC00011;Reserved for future use;FC004400/22
+0xC00012;Netmore;FC004800/22
+0xC00013;Lyse AS;FC004C00/22
+0xC00014;VTC Digicom;FC005000/22
+0xC00015;Machines Talk;FC005400/22
+0xC00016;Schneider Electric;FC005800/22
+0xC00017;Connexin;FC005C00/22
+0xC00018;Minol ZENNER Connect GmbH;FC006000/22
+0xC00019;Telekom Srbija;FC006400/22
+0xC0001A;REQUEA;FC006800/22
+0xC0001B;Sensor Network Services;FC006C00/22
+0xC0001C;Reserved for future use;FC007000/22
+0xC0001D;Boston Networks Limited;FC007400/22
+0xC0001E;Reserved for future use;FC007800/22
+0xC0001F;mcf88 SRL;FC007C00/22
+0xC00020;NEC Corporation;FC008000/22
+0xC00021;Hiber;FC008400/22
+0xC00022;Reserved for future use;FC008800/22
+0xC00023;Reserved for future use;FC008C00/22
+0xC00024;NTT (Nippon Telephone and Telegraph);FC009000/22
+0xC00025;International Centre for Free and Open Source Software (ICFOSS);FC009400/22
+0xC00026;N/A;FC009800/22
+0xC00027;Reserved for future use;FC009C00/22
+0xC00028;Lacuna Space;FC00A000/22
+0xC00029;Andorra Telecom;FC00A400/22
+0xC0002A;Xiamen Milesight IoT Co., Ltd.;FC00A800/22
+0xC0002B;Grenoble Alps University;FC00AC00/22
+0xC0002C;Reserved for future use;FC00B000/22
+0xC0002D;Reserved for future use;FC00B400/22
+0xC0002E;Spectrum;FC00B800/22
+0xC0002F;Afnic;FC00BC00/22
+0xC00030;Reserved for future use;FC00C000/22
+0xC00031;Reserved for future use;FC00C400/22
+0xC00032;Microshare Inc.;FC00C800/22
+0xC00033;HEIG-VD;FC00CC00/22
+0xC00034;Reserved for future use;FC00D000/22
+0xC00035;Reserved for future use;FC00D400/22
+0xC00036;Reserved for future use;FC00D800/22
+0xC00037;Alperia Fiber;FC00DC00/22
+0xC00038;First Snow Co., Ltd;FC00E000/22
+0xC00039;Acklio;FC00E400/22
+0xC0003A;Vutility;FC00E800/22
+0xC0003B;Meshed Pty Ltd;FC00EC00/22
+0xC0003C;Birdz;FC00F000/22
+0xC0003D;Arthur D Riley & Co Ltd;FC00F400/22
+0xC0003E;Komro GmbH;FC00F800/22
+0xC0003F;RSAWEB;FC00FC00/22
+0xC00040;Ceske Radiokomunikace;FC010000/22
+0xC00041;CM Systems LLC;FC010400/22
+0xC00042;MIOT Melita.io Technology GmbH;FC010800/22
+0xC00043;PROESYS S.r.l.;FC010C00/22
+0xC00044;MeWe, Inc;FC011000/22
+0xC00045;Alpha-Omega Technology GmbH & Co. KG;FC011400/22
+0xC00046;SSE Contracting Limted t/a Mayflower Smart Control;FC011800/22
+0xC00047;VEGA Grieshaber KG;FC011C00/22
+0xC00048;Afghan Wireless Communication Company;FC012000/22
+0xC00049;API-K;FC012400/22
+0xC0004A;Decstream LLC;FC012800/22
+0xC0004B;Nova Track Ltd;FC012C00/22
+0xC0004C;IMT Atlantique;FC013000/22
+0xC0004D;Machines Talk;FC013400/22
+0xC0004E;Yosensi Sp. z o.o.;FC013800/22
+0xC0004F;The Saira 2.0, LLC dba The IoT Solutions;FC013C00/22
+0xC00050;Neptune Technology Group;FC014000/22
+0xC00051;myDevices;FC014400/22
+0xC00052;Savoie Mont Blanc University;FC014800/22
+0xC00053;Decentralized Wireless Foundation Inc;FC014C00/22
+0xC00054;X-Telia Group Inc;FC015000/22
+0xC00055;Deviceroy;FC015400/22
+0xC00056;Eutelsat S.A.;FC015800/22
+0xC00057;Bejing Dingtek Technology Corp. Ltd;FC015C00/22
+0xC00058;The Things Network Foundation;FC016000/22
+0xC00059;Quandify AB;FC016400/22
+0xC0005A;Hutchison Drei Austria GmbH;FC016800/22
+0xC0005B;Agrology, PBC;FC016C00/22
+0xC0005C;mhascaro GmbH;FC017000/22
+0xC0005D;Log5 Data;FC017400/22
+0xC0005E;Citysens GmbH;FC017800/22
+0xE00000;RESERVED;FE000000/21
+0xE00010;RESERVED;FE000800/21
+0xE00020;Techtenna b.v.;FE001000/21
+0xE00030;LNX Solutions;FE001800/21
+0xE00040;Cometa Sas;FE002000/21
+0xE00050;Senwize B.V.;FE002800/21
