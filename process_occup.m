@@ -22,7 +22,7 @@ c = c1+c2;
 bar([c1' c2']);
 set(gca, 'xticklabel', {'Liege', 'Graz', 'Vienna', 'Brno'});
 ylabel('Channel utilization [%]'); grid on;
-legend('band L', 'band M');
+legend('band L', 'band M', 'Location', 'best');
 set(findall(gcf,'-property','FontSize'),'FontSize',font)
 print(strcat(name, '_01'), '-dpng');
 
@@ -35,7 +35,7 @@ c = c1+c2+c3;
 bar([c1' c2' c3']);
 set(gca, 'xticklabel', {'Liege', 'Graz', 'Vienna', 'Brno'});
 ylabel('Channel utilization [%]'); grid on;
-legend('band L', 'band M', 'band P');
+legend('band L', 'band M', 'band P', 'Location', 'best');
 set(findall(gcf,'-property','FontSize'),'FontSize',font)
 print(strcat(name, '_02'), '-dpng');
 

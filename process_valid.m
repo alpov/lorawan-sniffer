@@ -33,7 +33,7 @@ set(gca, 'xticklabel', {'SF7', 'SF8', 'SF9', 'SF10', 'SF11', 'SF12'});
 %xlabel('Spreading factor'); 
 ylabel('Packet count per day'); grid on;
 text(1:length(c), c, num2str(round(c')), 'vert', 'bottom', 'horiz', 'center');
-legend('Uplink', 'Downlink RX1', 'Downlink RX2');
+legend('Uplink', 'Downlink RX1', 'Downlink RX2', 'Location', 'best');
 %title(name4title,'Interpreter','none');
 set(findall(gcf,'-property','FontSize'),'FontSize',font)
 print(strcat(name, '_01'), '-dpng');
@@ -50,7 +50,7 @@ set(gca, 'xticklabel', {'CR 4/5', 'CR 4/6', 'CR 4/7', 'CR 4/8'});
 %xlabel('Coding ratio'); 
 ylabel('Packet count per day'); grid on;
 text(1:length(c), c, num2str(round(c')), 'vert', 'bottom', 'horiz', 'center');
-legend('Uplink', 'Downlink RX1', 'Downlink RX2');
+legend('Uplink', 'Downlink RX1', 'Downlink RX2', 'Location', 'best');
 %title(name4title,'Interpreter','none');
 set(findall(gcf,'-property','FontSize'),'FontSize',font)
 print(strcat(name, '_02'), '-dpng');
@@ -67,7 +67,7 @@ set(gca, 'xticklabel', {'867.1', '867.3', '867.5', '867.7', '867.9', '868.1', '8
 xtickangle(45);
 xlabel('Frequency [MHz]'); ylabel('Packet count per day'); grid on;
 text(1:length(c), c, num2str(round(c')), 'vert', 'bottom', 'horiz', 'center');
-legend('Uplink', 'Downlink RX1', 'Downlink RX2');
+legend('Uplink', 'Downlink RX1', 'Downlink RX2', 'Location', 'best');
 %title(name4title,'Interpreter','none');
 set(findall(gcf,'-property','FontSize'),'FontSize',font)
 print(strcat(name, '_03'), '-dpng');
@@ -80,7 +80,7 @@ c2 = (histcounts(M(M(:,4)==2,col), edges) ./ numdays);
 c3 = (histcounts(M(M(:,4)==3,col), edges) ./ numdays);
 bar(-130:2:-50,[c1' c2' c3'], 'Stacked', 'BarWidth', 1);
 xlabel('RSSI [dBm]'); ylabel('Packet count per day'); grid on;
-legend('Uplink', 'Downlink RX1', 'Downlink RX2');
+legend('Uplink', 'Downlink RX1', 'Downlink RX2', 'Location', 'best');
 %title(name4title,'Interpreter','none');
 set(findall(gcf,'-property','FontSize'),'FontSize',font)
 print(strcat(name, '_04'), '-dpng');
@@ -93,7 +93,7 @@ c2 = (histcounts(M(M(:,4)==2,col), edges) ./ numdays);
 c3 = (histcounts(M(M(:,4)==3,col), edges) ./ numdays);
 bar(-25:1:15, [c1' c2' c3'], 'Stacked', 'BarWidth', 1);
 xlabel('SNR [dBm]'); ylabel('Packet count per day'); grid on;
-legend('Uplink', 'Downlink RX1', 'Downlink RX2');
+legend('Uplink', 'Downlink RX1', 'Downlink RX2', 'Location', 'best');
 %title(name4title,'Interpreter','none');
 set(findall(gcf,'-property','FontSize'),'FontSize',font)
 print(strcat(name, '_05'), '-dpng');
@@ -111,7 +111,7 @@ set(gca, 'xticklabel', {'<12', '12-15', '16-19', '20-23', '24-27', '28-31', '31-
 xtickangle(45);
 xlabel('Data length [B]'); ylabel('Packet count per day'); grid on;
 text(1:length(c), c, num2str(round(c')), 'vert', 'bottom', 'horiz', 'center');
-legend('Uplink', 'Downlink RX1', 'Downlink RX2');
+legend('Uplink', 'Downlink RX1', 'Downlink RX2', 'Location', 'best');
 %title(name4title,'Interpreter','none');
 set(findall(gcf,'-property','FontSize'),'FontSize',font)
 print(strcat(name, '_06'), '-dpng');
@@ -130,7 +130,7 @@ xtickangle(45);
 %xlabel('Message Type'); 
 ylabel('Packet count per day'); grid on;
 text(1:length(c), c, num2str(round(c')), 'vert', 'bottom', 'horiz', 'center');
-legend('Uplink', 'Downlink RX1', 'Downlink RX2');
+legend('Uplink', 'Downlink RX1', 'Downlink RX2', 'Location', 'best');
 %title(name4title,'Interpreter','none');
 set(findall(gcf,'-property','FontSize'),'FontSize',font)
 print(strcat(name, '_07'), '-dpng');
@@ -143,7 +143,7 @@ print(strcat(name, '_07'), '-dpng');
 % c3 = (histcounts(M(M(:,4)==3,col), edges) ./ numdays);
 % bar([c1' c2' c3'], 'Stacked', 'BarWidth', 1);
 % xlabel('FPort'); ylabel('Packet count per day'); grid on;
-% legend('Uplink', 'Downlink RX1', 'Downlink RX2');
+% legend('Uplink', 'Downlink RX1', 'Downlink RX2', 'Location', 'best');
 % title(name4title,'Interpreter','none');
 % set(findall(gcf,'-property','FontSize'),'FontSize',font)
 % print(strcat(name, '_08'), '-dpng');
@@ -176,7 +176,7 @@ c2 = airtime_down;
 bar([c1' c2']);
 set(gca, 'xticklabel', {'Ch.1', 'Ch.2', 'Ch.3', 'Ch.4', 'Ch.5', 'Ch.6', 'Ch.7', 'Ch.8', 'RX2'});
 ylabel('Channel utilization [%]'); grid on;
-legend('Uplink', 'Downlink', 'Location', 'NorthWest');
+legend('Uplink', 'Downlink', 'Location', 'best');
 set(findall(gcf,'-property','FontSize'),'FontSize',font)
 print(strcat(name, '_08'), '-dpng');
 

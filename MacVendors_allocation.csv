@@ -8928,6 +8928,7 @@
 8C1F640BF;Aurora Communication Technologies Corp.
 8C1F640C0;Active Research Limited
 8C1F640C5;TechnipFMC
+8C1F640CA;CLOUD TELECOM Inc.
 8C1F640D5;RealD, Inc.
 8C1F640D6;AVD INNOVATION LIMITED
 8C1F640D8;Power Electronics Espana, S.L.
@@ -9090,6 +9091,7 @@
 8C1F6432C;Taiko Audio B.V.
 8C1F6432F;DEUTA Controls GmbH
 8C1F64330;Vision Systems Safety Tech
+8C1F64334;OutdoorLink
 8C1F64349;WAVES SYSTEM
 8C1F6434C;Kyushu Keisokki Co.,Ltd.
 8C1F6434D;biosilver .co.,ltd
@@ -9179,9 +9181,11 @@
 8C1F6446A;Pharsighted LLC
 8C1F64472;Surge Networks, Inc.
 8C1F64475;Alpine Quantum Technologies GmbH
+8C1F64476;Clair Global Corporation
 8C1F6447A;Missing Link Electronics, Inc.
 8C1F6447D;EB NEURO SPA
 8C1F64489;HUPI
+8C1F6448F;Mecos AG
 8C1F64493;Security Products International, LLC
 8C1F64495;DAVE SRL
 8C1F64498;YUYAMA MFG Co.,Ltd
@@ -9256,6 +9260,7 @@
 8C1F64575;Yu-Heng Electric Co., LTD 
 8C1F6457A;NPO ECO-INTECH Ltd.
 8C1F6457B;Potter Electric Signal Company
+8C1F6457D;ISDI Ltd
 8C1F64581;SpectraDynamics, Inc.
 8C1F6458C;Ear Micro LLC
 8C1F6458E;Novanta IMS
@@ -9301,6 +9306,7 @@
 8C1F64622;Logical Product
 8C1F64625;Stresstech OY
 8C1F64626;CSIRO
+8C1F6462C;Hangzhou EasyXR Advanced Technology Co., Ltd.
 8C1F6462D;Embeddded Plus Plus
 8C1F64634;AML
 8C1F64636;Europe Trade
@@ -9405,6 +9411,7 @@
 8C1F64787;Tabology
 8C1F6478F;Connection Systems
 8C1F64793;Aditec GmbH
+8C1F64797;Alban Giacomo S.p.a.
 8C1F6479B;Foerster-Technik GmbH
 8C1F6479D;Murata Manufacturing Co., Ltd.
 8C1F6479E;Accemic Technologies GmbH
@@ -9417,6 +9424,7 @@
 8C1F647AE;D-E-K GmbH & Co.KG
 8C1F647AF;E VISION INDIA PVT LTD 
 8C1F647B0;AXID SYSTEM
+8C1F647B1;EA Elektro-Automatik
 8C1F647B5;Guan Show Technologe Co., Ltd.
 8C1F647B6;KEYLINE S.P.A.
 8C1F647B7;Weidmann Tecnologia Electrica de Mexico
@@ -9481,6 +9489,7 @@
 8C1F64890;WonATech Co., Ltd.
 8C1F64892;MDI Industrial
 8C1F64895;Dacom West GmbH
+8C1F64898;Copper Connections Ltd
 8C1F6489E;Cinetix Srl
 8C1F648A4;Genesis Technologies AG
 8C1F648A8;Massachusetts Institute of Technology
@@ -9490,6 +9499,7 @@
 8C1F648AE;Shenzhen Qunfang Technology Co., LTD.
 8C1F648AF;Ibeos
 8C1F648B5;Ashton Bentley Collaboration Spaces
+8C1F648B8;Wien Energie GmbH
 8C1F648B9;Zynex Monitoring Solutions
 8C1F648C2;Cirrus Systems, Inc.
 8C1F648C4;Hermes Network Inc
@@ -9834,6 +9844,7 @@
 8C1F64D88;University of Geneva - Department of Particle Physics
 8C1F64D8F;DEUTA-WERKE GmbH
 8C1F64D92;Mitsubishi Electric India Pvt. Ltd.
+8C1F64D93;Algodue Elettronica Srl
 8C1F64D98;Gnewtek photoelectric technology Ltd.
 8C1F64D9A;Beijing Redlink Information Technology Co., Ltd.
 8C1F64D9B;GiS mbH
@@ -9886,6 +9897,7 @@
 8C1F64E64;Indefac company
 8C1F64E73;GTR Industries
 8C1F64E74;Magosys Systems LTD
+8C1F64E75;Stercom Power Soltions GmbH
 8C1F64E77;GY-FX SAS
 8C1F64E7B;Dongguan Pengchen Earth Instrument CO. LT
 8C1F64E7C;Ashinne Technology Co., Ltd
@@ -11186,7 +11198,7 @@
 38B8EB8;CeeNex Inc
 38B8EB9;NHS Sistemas de Energia
 38B8EBA;SECAD SA
-38B8EBB;ExaScaler Inc.
+38B8EBB;PEZY Computing K.K.
 38B8EBC;Ajax Systems Inc
 38B8EBD;Yellowbrick Data, Inc.
 38B8EBE;Wyres SAS
@@ -11595,12 +11607,20 @@
 500B91D;Shenzhen Lucky Sonics Co .,Ltd
 500B91E;Shenzhen zhong ju  Fiber optical Co.Ltd
 50482C0;Landatel Comunicaciones SL
+50482C1;Annapurna labs
 50482C2;BBPOS Limited
 50482C3;Immunity Networks and Technologies Pvt Ltd
 50482C4;Hy-Line Computer Components GmbH
+50482C5;Bluefin International Inc
+50482C6;WIKA Mobile Conrol GmbH&Co.KG
+50482C7;Oliver IQ, Inc.
 50482C8;Dongguan Amdolla Electric & Light Material Manufacture Co., Ltd
+50482C9;Soter Technologies
+50482CA;JUNG HO
+50482CB;SL Process
 50482CC;Telecam Technology Co.,Ltd
 50482CD;KIDO SPORTS CO., LTD.
+50482CE;Harbin Nosean Tese And Control Technology Co.,Ltd
 5062550;Ufanet SC
 5062551;Hagiwara Solutions Co., Ltd 
 5062552;ShenZhen ChuangMo Electronics Technology Co., Ltd
@@ -14012,6 +14032,10 @@ D01411B;CYLTek Limited
 D01411C;Shen Zhen HaiHe Hi-Tech Co., Ltd
 D01411D;Guangdong Shiqi Manufacture Co., Ltd.
 D01411E;Tecnosoft srl
+D015BB5;Listen Technologies
+D015BB9;Stellar Blu Solutions
+D015BBA;HONG KONG COHONEST TECHNOLOGY LIMITED
+D015BBD;Lampuga GmbH
 D016F00;Shenzhen Lesingle Technology CO., LTD.
 D016F01;QBIC COMMUNICATIONS DMCC
 D016F02;RYSE Inc.
@@ -18048,7 +18072,7 @@ FCD2B6E;Univer S.p.A.
 000CE9;BLOOMBERG L.P.
 000CEA;aphona Kommunikationssysteme
 000CEB;CNMP Networks, Inc.
-000CEC;Orolia USA
+000CEC;Safran Trusted 4D Inc.
 000CED;Real Digital Media
 000CEE;jp-embedded
 000CEF;Open Networks Engineering Ltd
@@ -21270,7 +21294,7 @@ FCD2B6E;Univer S.p.A.
 00197F;PLANTRONICS, INC.
 001980;Gridpoint Systems
 001981;Vivox Inc
-001982;SmarDTV
+001982;SmarDTV Corporation
 001983;CCT R&D Limited
 001984;ESTIC Corporation
 001985;IT Watchdogs, Inc
@@ -25047,6 +25071,7 @@ FCD2B6E;Univer S.p.A.
 00376D;Murata Manufacturing Co., Ltd.
 0037B7;Sagemcom Broadband SAS
 0038DF;Cisco Systems, Inc
+003969;Air-Weigh Incorporated
 003A7D;Cisco Systems, Inc
 003A98;Cisco Systems, Inc
 003A99;Cisco Systems, Inc
@@ -26695,7 +26720,7 @@ FCD2B6E;Univer S.p.A.
 00A0D2;ALLIED TELESIS INTERNATIONAL CORPORATION
 00A0D3;INSTEM COMPUTER SYSTEMS, LTD.
 00A0D4;RADIOLAN,  INC.
-00A0D5;Sierra Wireless
+00A0D5;Sierra Wireless, ULC
 00A0D6;SBE, Inc.
 00A0D7;KASTEN CHASE APPLIED RESEARCH
 00A0D8;SPECTRA - TEK
@@ -27694,6 +27719,7 @@ FCD2B6E;Univer S.p.A.
 00E5E4;Sichuan Tianyi Comheart Telecom Co.,LTD
 00E5F1;BUFFALO.INC
 00E60E;Extreme Networks, Inc.
+00E63A;Ruckus Wireless
 00E666;ARIMA Communications Corp.
 00E6D3;NIXDORF COMPUTER CORP.
 00E6E8;Netzin Technology Corporation,.Ltd.
@@ -27762,6 +27788,7 @@ FCD2B6E;Univer S.p.A.
 0405DD;Shenzhen Cultraview Digital Technology Co., Ltd
 04072E;VTech Electronics Ltd.
 040973;Hewlett Packard Enterprise
+040986;Arcadyan Corporation
 0409A5;HFR, Inc.
 040A83;Alcatel-Lucent
 040AE0;XMIT AG COMPUTER NETWORKS
@@ -28567,6 +28594,7 @@ FCD2B6E;Univer S.p.A.
 08FF24;Shenzhen Skyworth Digital  Technology  CO., Ltd
 08FF44;Apple, Inc.
 0C014B;zte corporation
+0C01C8;DENSO Co.,Ltd
 0C01DB;Infinix mobility limited
 0C0227;Vantiva USA LLC
 0C02BD;Samsung Electronics Co.,Ltd
@@ -28763,6 +28791,7 @@ FCD2B6E;Univer S.p.A.
 0CAAEE;Ansjer Electronics Co., Ltd.
 0CAC05;Unitend Technologies Inc.
 0CAC8A;Sagemcom Broadband SAS
+0CAE5F;Silicon Laboratories
 0CAE7D;Texas Instruments
 0CAEBD;Edifier International
 0CAF31;Cisco Systems, Inc
@@ -29084,6 +29113,7 @@ FCD2B6E;Univer S.p.A.
 109ADD;Apple, Inc.
 109C70;Prusa Research s.r.o.
 109D7A;Huawei Device Co., Ltd.
+109D9C;EM Microelectronic
 109E3A;Zhejiang Tmall Technology Co., Ltd.
 109F41;Apple, Inc.
 109F4F;New H3C Intelligence Terminal Co., Ltd.
@@ -29465,6 +29495,7 @@ FCD2B6E;Univer S.p.A.
 14BB6E;Samsung Electronics Co.,Ltd
 14BD61;Apple, Inc.
 14C03E;ARRIS Group, Inc.
+14C050;GUANGDONG GENIUS TECHNOLOGY CO., LTD.
 14C089;DUNE HD LTD
 14C0A1;UCloud Technology Co., Ltd.
 14C126;Nokia Corporation
@@ -29758,6 +29789,7 @@ FCD2B6E;Univer S.p.A.
 18A59C;IEEE Registration Authority
 18A5FF;Arcadyan Corporation
 18A6F7;TP-LINK TECHNOLOGIES CO.,LTD.
+18A788;Shenzhen MEK Intellisys Pte Ltd
 18A7F1;Qingdao Haier Technology Co.,Ltd
 18A905;Hewlett Packard
 18A958;PROVISION THAI CO., LTD.
@@ -31025,7 +31057,7 @@ FCD2B6E;Univer S.p.A.
 28A1EB;ETEK TECHNOLOGY (SHENZHEN) CO.,LTD
 28A241;exlar corp
 28A24B;Juniper Networks
-28A331;Sierra Wireless
+28A331;Sierra Wireless, ULC
 28A53F;vivo Mobile Communication Co., Ltd.
 28A574;Miller Electric Mfg. Co.
 28A5EE;Shenzhen SDGI CATV Co., Ltd
@@ -31164,6 +31196,7 @@ FCD2B6E;Univer S.p.A.
 28FEDE;COMESTA, Inc.
 28FF3C;Apple, Inc.
 28FF3E;zte corporation
+28FF5F;HG Genuine Intelligent Terminal (Xiaogan) Co.,Ltd.
 28FFB2;Toshiba Corp.
 2C002A;Shenzhen TINNO Mobile Technology Corp.
 2C002C;UNOWHY
@@ -32225,6 +32258,7 @@ FCD2B6E;Univer S.p.A.
 38384B;vivo Mobile Communication Co., Ltd.
 3838A6;Arista Networks
 38396C;Huawei Device Co., Ltd.
+38398F;Silicon Laboratories
 383A21;IEEE Registration Authority
 383B26;Jiangsu Qinheng Co., Ltd.
 383BC8;2Wire Inc
@@ -32454,6 +32488,7 @@ FCD2B6E;Univer S.p.A.
 38F597;home2net GmbH
 38F601;Solid State Storage Technology Corporation
 38F6CF;zte corporation
+38F6ED;EVK DI Kerschhaggl GmbH
 38F708;National Resource Management, Inc.
 38F73D;Amazon Technologies Inc.
 38F7B2;SEOJUN ELECTRIC
@@ -32541,6 +32576,7 @@ FCD2B6E;Univer S.p.A.
 3C2C94;杭州德澜科技有限公司（HangZhou Delan Technology Co.,Ltd）
 3C2C99;Edgecore Networks Corporation
 3C2CA6;Beijing Xiaomi Electronics Co.,Ltd
+3C2D9E;Vantiva - Connected Home
 3C2DB7;Texas Instruments
 3C2EF5;Silicon Laboratories
 3C2EF9;Apple, Inc.
@@ -33162,6 +33198,7 @@ FCD2B6E;Univer S.p.A.
 44184F;Fitview
 4418FD;Apple, Inc.
 4419B6;Hangzhou Hikvision Digital Technology Co.,Ltd.
+441A4C;xFusion Digital Technologies Co.,Ltd.
 441AAC;Elektrik Uretim AS EOS
 441AFA;New H3C Technologies Co., Ltd
 441B88;Apple, Inc.
@@ -33970,6 +34007,7 @@ FCD2B6E;Univer S.p.A.
 4C962D;Fresh AB
 4C968A;Wacom Co.,Ltd.
 4C98EF;Zeo
+4C9992;vivo Mobile Communication Co., Ltd.
 4C9B63;LG Innotek
 4C9D22;ACES Co.,Ltd
 4C9E6C;BROADEX TECHNOLOGIES CO.LTD
@@ -34998,6 +35036,7 @@ FCD2B6E;Univer S.p.A.
 58D071;BW Broadcast
 58D08F;IEEE 1904.1 Working Group
 58D237;Sichuan Tianyi Comheart Telecom Co.,LTD
+58D312;zte corporation
 58D349;Apple, Inc.
 58D391;Quectel Wireless Solutions Co.,Ltd.
 58D50A;Murata Manufacturing Co., Ltd.
@@ -35440,6 +35479,7 @@ FCD2B6E;Univer S.p.A.
 602A1B;JANCUS
 602A54;CardioTek B.V.
 602AD0;Cisco SPVTG
+602B58;EM Microelectronic
 602E20;HUAWEI TECHNOLOGIES CO.,LTD
 6030D4;Apple, Inc.
 60313B;Sunnovo International Limited
@@ -35980,7 +36020,7 @@ FCD2B6E;Univer S.p.A.
 64CBE9;LG Innotek
 64CC22;Arcadyan Corporation
 64CC2E;Xiaomi Communications Co Ltd
-64CE6E;Sierra Wireless
+64CE6E;Sierra Wireless, ULC
 64CF13;Weigao Nikkiso(Weihai)Dialysis Equipment Co.,Ltd
 64CFD9;Texas Instruments
 64D02D;NEXT GENERATION INTEGRATION LIMITED (NGI)
@@ -36504,6 +36544,7 @@ FCD2B6E;Univer S.p.A.
 6C641A;Penguin Computing
 6C6567;BELIMO Automation AG
 6C67EF;HUAWEI TECHNOLOGIES CO.,LTD
+6C68A4;Guangzhou V-Solution Telecommunication Technology Co.,Ltd.
 6C6A77;Intel Corporate
 6C6C0F;HUAWEI TECHNOLOGIES CO.,LTD
 6C6CD3;Cisco Systems, Inc
@@ -37202,6 +37243,7 @@ FCD2B6E;Univer S.p.A.
 74767D;shenzhen kexint technology co.,ltd
 747818;Jurumani Solutions
 747827;Dell Inc.
+7478A6;Fortinet, Inc.
 747A90;Murata Manufacturing Co., Ltd.
 747B7A;ETH Inc.
 747D24;Phicomm (Shanghai) Co., Ltd.
@@ -37243,6 +37285,7 @@ FCD2B6E;Univer S.p.A.
 749050;Renesas Electronics Corporation
 74911A;Ruckus Wireless
 7491BD;Four systems Co.,Ltd.
+7492BA;Movesense Ltd
 7493A4;Zebra Technologies Corp.
 7493DA;ASKEY COMPUTER CORP
 74943D;AgJunction
@@ -37305,6 +37348,7 @@ FCD2B6E;Univer S.p.A.
 74C17D;Infinix mobility limited
 74C246;Amazon Technologies Inc.
 74C330;SHENZHEN FAST TECHNOLOGIES CO.,LTD
+74C530;vivo Mobile Communication Co., Ltd.
 74C621;Zhejiang Hite Renewable Energy Co.,LTD
 74C63B;AzureWave Technology Inc.
 74C929;Zhejiang Dahua Technology Co., Ltd.
@@ -37720,6 +37764,7 @@ FCD2B6E;Univer S.p.A.
 78DDD6;c-scape
 78DDD9;Guangzhou Shiyuan Electronics Co., Ltd. 
 78DEE4;Texas Instruments
+78DF72;Shanghai Imilab Technology Co.Ltd
 78E103;Amazon Technologies Inc.
 78E22C;Huawei Device Co., Ltd.
 78E2BD;Vodafone Automotive S.p.A.
@@ -38597,6 +38642,7 @@ FCD2B6E;Univer S.p.A.
 84850A;Hella Sonnen- und Wetterschutztechnik GmbH
 848553;Biznes Systema Telecom, LLC
 8485E6;Guangdong Asano Technology CO.,Ltd.
+848687;weiyuantechnology
 8486F3;Greenvity Communications
 8488E1;Apple, Inc.
 8489AD;Apple, Inc.
@@ -38707,7 +38753,7 @@ FCD2B6E;Univer S.p.A.
 84D81B;TP-LINK TECHNOLOGIES CO.,LTD.
 84D931;Hangzhou H3C Technologies Co., Limited
 84D9C8;Unipattern Co.,
-84DB2F;Sierra Wireless
+84DB2F;Sierra Wireless, ULC
 84DB9E;Pink Nectarine Health AB
 84DBA4;Huawei Device Co., Ltd.
 84DBAC;HUAWEI TECHNOLOGIES CO.,LTD
@@ -41108,6 +41154,7 @@ A41CB4;DFI Inc
 A41EE1;Taicang T&W Electronics
 A41F72;Dell Inc.
 A4218A;Nortel Networks
+A42249;Sagemcom Broadband SAS
 A42305;Open Networking Laboratory
 A424B3;FlatFrog Laboratories AB
 A424DD;Cambrionix Ltd
@@ -42008,6 +42055,7 @@ ACD364;ABB SPA, ABB SACE DIV.
 ACD564;CHONGQING FUGUI ELECTRONICS CO.,LTD.
 ACD618;OnePlus Technology (Shenzhen) Co., Ltd
 ACD657;Shaanxi GuoLian Digital TV Technology Co.,Ltd.
+ACD75B;Sagemcom Broadband SAS
 ACD829;Bouffalo Lab (Nanjing) Co., Ltd.
 ACD8A7;BELLDESIGN Inc.
 ACD9D6;tci GmbH
@@ -42081,7 +42129,7 @@ B01266;Futaba-Kikaku
 B01408;LIGHTSPEED INTERNATIONAL CO.
 B01656;HUAWEI TECHNOLOGIES CO.,LTD
 B01743;EDISON GLOBAL CIRCUITS LLC
-B01886;SmarDTV
+B01886;SmarDTV Corporation
 B019C6;Apple, Inc.
 B01B4B;Invisible Fun Studio Limited
 B01B7C;Ontrol A.S.
@@ -42150,6 +42198,7 @@ B04BBF;PT HAN SUNG ELECTORONICS INDONESIA
 B04C05;Fresenius Medical Care Deutschland GmbH
 B04E26;TP-LINK TECHNOLOGIES CO.,LTD.
 B04F13;Dell Inc.
+B04FA6;DongGuan Ramaxel Memory Technology
 B04FC3;Shenzhen NVC Cloud Technology Co., Ltd.
 B050BC;SHENZHEN BASICOM ELECTRONIC CO.,LTD.
 B0518E;Holl technology CO.Ltd.
@@ -42609,6 +42658,7 @@ B4BFF6;Samsung Electronics Co.,Ltd
 B4C0F5;Shenzhen TINNO Mobile Technology Corp.
 B4C170;Yi chip Microelectronics (Hangzhou) Co., Ltd
 B4C26A;Garmin International
+B4C2E0;Bouffalo Lab (Nanjing) Co., Ltd.
 B4C2F7;Huawei Device Co., Ltd.
 B4C44E;VXL eTech Pvt Ltd
 B4C476;Wuhan Maritime Communication Research Institute
@@ -43195,6 +43245,7 @@ BC825D;MITSUMI ELECTRIC CO.,LTD.
 BC8385;Microsoft Corporation
 BC83A7;SHENZHEN CHUANGWEI-RGB ELECTRONICS CO.,LTD
 BC851F;Samsung Electronics Co.,Ltd
+BC8529;Jiangxi Remote lntelligence Technology Co.,Ltd
 BC8556;Hon Hai Precision Ind. Co.,Ltd.
 BC87FA;Bose Corporation
 BC8893;VILLBAU Ltd.
@@ -44504,7 +44555,7 @@ CC9070;Cisco Systems, Inc
 CC9093;Hansong Tehnologies
 CC90E8;Shenzhen YOUHUA Technology Co., Ltd	
 CC912B;TE Connectivity Touch Solutions
-CC934A;Sierra Wireless
+CC934A;Sierra Wireless, ULC
 CC944A;Pfeiffer Vacuum GmbH
 CC9470;Kinestral Technologies, Inc.
 CC95D7;Vizio, Inc
@@ -44670,6 +44721,7 @@ D013FD;LG Electronics (Mobile Communications)
 D01411;IEEE Registration Authority
 D0154A;zte corporation
 D015A6;Aruba, a Hewlett Packard Enterprise Company
+D015BB;IEEE Registration Authority
 D0167C;eero inc.
 D016B4;HUAWEI TECHNOLOGIES CO.,LTD
 D016F0;IEEE Registration Authority
@@ -44723,6 +44775,7 @@ D041C9;Fiberhome Telecommunication Technologies Co.,LTD
 D0431E;Dell Inc.
 D046DC;Southwest Research Institute
 D047C1;Elma Electronic AG
+D0484F;Nokia Solutions and Networks GmbH & Co. KG
 D048F3;DATTUS Inc
 D0497C;OnePlus Technology (Shenzhen) Co., Ltd
 D0498B;ZOOM SERVER
@@ -45304,6 +45357,7 @@ D806D1;Honeywell Fire System (Shanghai) Co,. Ltd.
 D807B6;TP-LINK TECHNOLOGIES CO.,LTD.
 D80831;Samsung Electronics Co.,Ltd
 D808F5;Arcadia Networks Co. Ltd. 
+D8097F;zte corporation
 D809C3;Cercacor Labs
 D809D6;ZEXELON CO., LTD.
 D80A60;HUAWEI TECHNOLOGIES CO.,LTD
@@ -46250,6 +46304,7 @@ E0DBD1;Vantiva USA LLC
 E0DCA0;Siemens Industrial Automation Products Ltd., Chengdu
 E0DCFF;Xiaomi Communications Co Ltd
 E0DDC0;vivo Mobile Communication Co., Ltd.
+E0DF13;Hangzhou Hikvision Digital Technology Co.,Ltd.
 E0E0C2;China Mobile Group Device Co.,Ltd.
 E0E0FC;Huawei Device Co., Ltd.
 E0E1A9;Shenzhen Four Seas Global Link Network Technology Co., Ltd.
@@ -47593,6 +47648,7 @@ F42B7D;Chipsguide technology CO.,LTD.
 F42B8C;Samsung Electronics Co.,Ltd
 F42C56;SENOR TECH CO LTD
 F42D06;zte corporation
+F42E48;zte corporation
 F42E7F;Aruba, a Hewlett Packard Enterprise Company
 F4308B;Xiaomi Communications Co Ltd
 F430B9;Hewlett Packard

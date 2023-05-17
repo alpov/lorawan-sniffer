@@ -36,6 +36,12 @@ for row in sorted_counts:
 result = [{'operator': operator, 'count': count} for operator, count in counts.items()]
 result = sorted(result, key=lambda row: row['count'], reverse=True)
 
+outsum = ['Total', 0, 0]
 for row in result:
     out = [row['operator'], row['count'], round(row['count'] / lines * 100, 3)]
+    outsum[1] = outsum[1] + out[1]
+    outsum[2] = outsum[2] + out[2]
     writer.writerow(out)
+
+writer.writerow(outsum)
+
