@@ -149,10 +149,14 @@ end
 airtime_up = airtime_up*1e-3 ./ numdays ./ 86400 .* 100;
 airtime_down = airtime_down*1e-3 ./ numdays ./ 86400 .* 100;
 
+% fix channel order
+airtime_up = [ airtime_up(6:8) airtime_up(1:5) airtime_up(9) ];
+airtime_down = [ airtime_down(6:8) airtime_down(1:5) airtime_down(9) ];
+
 fprintf('\ndataset = %s, numdays = %.2f\n', name, numdays);
-fprintf('dir/dev     count    days    %% tot    %% ch1  %% ch2  %% ch3  %% ch4  %% ch5  %% ch6  %% ch7  %% ch8  %% rx2      %% g   %% g1\n');
-fprintf('uplink              %5.2f   %6.3f   %6.3f %6.3f %6.3f %6.3f %6.3f %6.3f %6.3f %6.3f %6.3f   %6.3f %6.3f\n', numdays, sum(airtime_up), airtime_up, sum(airtime_up(1:5)), sum(airtime_up(6:8)));
-fprintf('downlink            %5.2f   %6.3f   %6.3f %6.3f %6.3f %6.3f %6.3f %6.3f %6.3f %6.3f %6.3f   %6.3f %6.3f\n', numdays, sum(airtime_down), airtime_down, sum(airtime_down(1:5)), sum(airtime_down(6:8)));
+fprintf('dir/dev     count    days    %% tot    %% ch1  %% ch2  %% ch3  %% ch4  %% ch5  %% ch6  %% ch7  %% ch8  %% P        %% M   %% L\n');
+fprintf('uplink              %5.2f   %6.3f   %6.3f %6.3f %6.3f %6.3f %6.3f %6.3f %6.3f %6.3f %6.3f   %6.3f %6.3f\n', numdays, sum(airtime_up), airtime_up, sum(airtime_up(1:3)), sum(airtime_up(4:8)));
+fprintf('downlink            %5.2f   %6.3f   %6.3f %6.3f %6.3f %6.3f %6.3f %6.3f %6.3f %6.3f %6.3f   %6.3f %6.3f\n', numdays, sum(airtime_down), airtime_down, sum(airtime_down(1:3)), sum(airtime_down(4:8)));
 
 %% Histogram of channel occupation
 figure();
