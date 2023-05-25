@@ -5,7 +5,9 @@ This repository contains the tools and materials used to obtain the dataset anal
 
 The sniffer hardware comprises three IMST ic880A modules, connected to a Raspberry Pi along with a GPS and RTC. The signal path from the antenna includes a SAW filter, an LNA, and a four-way power splitter. The documentation for the motherboard hardware can be found in the `eagle` folder.
 
-The Raspberry Pi mini-computer runs Raspberry Pi OS Lite. The ic880A modules connect via the SPI interface, the GPS through UART, and the RTC through I2C. Forks of the `lora_gateway` and `packet_forwarder` projects have been modified to support multiple SPI interfaces and the required sniffer functions (receiving packets with inverted IQ, no CRC, implicit header). A fork of the `ttybus` project provides GPS receiver hub support for all three instances of `packet_forwarder`, including correct GPS initialization. Configuration files and `systemd` scripts reside in the `packet_forwarder` repository.
+The Raspberry Pi mini-computer runs Raspberry Pi OS Lite. The ic880A modules connect via the SPI interface, the GPS through UART, and the RTC through I2C. Forks of the `lora_gateway` and `packet_forwarder` projects have been modified to support multiple SPI interfaces and the required sniffer functions (receiving packets with inverted IQ, no CRC, implicit header). Table 1 presents a list of the impacted SX1301 registers. A fork of the `ttybus` project provides GPS receiver hub support for all three instances of `packet_forwarder`, including correct GPS initialization. Configuration files and `systemd` scripts reside in the `packet_forwarder` repository.
+
+![Table 1](registers.png)
 
 Logs are stored on an SD card in JSON data format. For processing, we've developed a set of conversion tools to convert the raw JSON data recorded by the sniffer into the standard `pcap` format for Wireshark, using the [LoRaTap version 1](https://github.com/eriknl/LoRaTap) encapsulation. The `pcap` data is then filtered, exported to `csv` format by the `tshark` tool, and post-processed using Python scripts. MATLAB scripts process the output data to provide graphical representations of statistics.
 
