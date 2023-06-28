@@ -9,7 +9,7 @@ The Raspberry Pi mini-computer runs Raspberry Pi OS Lite. The ic880A modules con
 
 ![Table 1](registers.png)
 
-Logs are stored on an SD card in JSON data format. For processing, we've developed a set of conversion tools to convert the raw JSON data recorded by the sniffer into the standard `pcap` format for Wireshark, using the [LoRaTap version 1](https://github.com/eriknl/LoRaTap) encapsulation. The `pcap` data is then filtered, exported to `csv` format by the `tshark` tool, and post-processed using Python scripts. MATLAB scripts process the output data to provide graphical representations of statistics.
+Logs are stored on an SD card in JSON data format. For processing, we've developed a set of conversion tools to convert the raw JSON data recorded by the sniffer into the standard `pcap` format for Wireshark, using the [LoRaTap version 1](https://github.com/eriknl/LoRaTap) encapsulation implemented in recent Wireshark versions, which are available through the [automated build system](https://www.wireshark.org/download/automated/win64/) (choose 4.1.0rc0). The `pcap` data is then filtered, exported to `csv` format by the `tshark` tool, and post-processed using Python scripts. MATLAB scripts process the output data to provide graphical representations of statistics.
 
 Therefore, the processing follows these steps:
 

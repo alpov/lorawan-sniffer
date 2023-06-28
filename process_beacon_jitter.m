@@ -51,7 +51,7 @@ hold(ax);
 ax.Layer = 'top';
 ax.XLim = [x1values(1) x1values(end)];
 ax.XTick = x1ticks;
-xlabel(ax, 'Signal propagation delay [\mus]');
+xlabel(ax, 'Time offset to GNSS reference [\mus]');
 ylabel(ax, 'Packet count per day'); 
 grid on;
 

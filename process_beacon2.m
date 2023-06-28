@@ -9,6 +9,8 @@ function  process_beacon2(name, mode)
 %name='../loralog/csv/05_Wien_beacon'; mode='utcshift';
 %name='../loralog/csv/07_Brno_beacon'; mode='unix';
 
+deltashift = 152576e-6 + 1500e-6 + 67e-6;
+
 if strcmp(mode, 'unix')
     invalidstr = 'UNIX time'; 
     append = '_unix';
@@ -63,8 +65,8 @@ print(strcat(name, '_05'), '-dpng');
 %% Timing jitter
 figure();
 edges = 0:2:500; col = 16;
-c1 = (histcounts(1e6*(M(:,col)-0.154076), edges) ./ numdays);
-c2 = (histcounts(1e6*(N(:,col)-0.154076+shift), edges) ./ numdays);
+c1 = (histcounts(1e6*(M(:,col)-deltashift), edges) ./ numdays);
+c2 = (histcounts(1e6*(N(:,col)-deltashift+shift), edges) ./ numdays);
 bar(edges(2:end), [c1' c2'], 'Stacked', 'BarWidth', 1);
 %bar(edges(2:end), c1, 'Stacked', 'BarWidth', 1);
 %hold on;

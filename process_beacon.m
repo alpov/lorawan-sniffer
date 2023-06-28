@@ -8,6 +8,8 @@ function  process_beacon(name, mode)
 %clear all;
 %name='../loralog/csv/02_Liege_beacon';
 
+deltashift = 152576e-6 + 1500e-6 + 67e-6;
+
 M = readmatrix(strcat(name, '_valid.csv'), 'TreatAsMissing', 'NaN');
 numdays = days(datetime(M(end,2), 'ConvertFrom', 'posixtime')-datetime(M(1,2), 'ConvertFrom', 'posixtime'));
 
@@ -44,7 +46,7 @@ print(strcat(name, '_05'), '-dpng');
 %% Timing jitter
 figure();
 edges = 0:2:500; col = 16;
-c1 = (histcounts(1e6*(M(:,col)-0.154076), edges) ./ numdays);
+c1 = (histcounts(1e6*(M(:,col)-deltashift), edges) ./ numdays);
 bar(edges(2:end), c1, 'Stacked', 'BarWidth', 1);
 xlabel('Difference [us]'); ylabel('Packet count per day'); grid on;
 %title(name4title,'Interpreter','none');
