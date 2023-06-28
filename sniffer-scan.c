@@ -8,7 +8,7 @@
 #include <time.h>
 #include <byteswap.h>
 #include <arpa/inet.h>
-#include <cjson/cJSON.h>
+#include "cJSON/cJSON.h"
 
 #define TM_FORMAT "%d.%d.%d %.2d:%.2d:%.2d"
 #define TM_DATA(x) (x)->tm_mday, (x)->tm_mon+1, (x)->tm_year+1900, (x)->tm_hour, (x)->tm_min, (x)->tm_sec

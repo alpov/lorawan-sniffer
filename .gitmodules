@@ -7,3 +7,6 @@
 [submodule "ttybus"]
 	path = ttybus
 	url = ../ttybus
+[submodule "cJSON"]
+	path = cJSON
+	url = https://github.com/DaveGamble/cJSON

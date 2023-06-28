@@ -8,7 +8,7 @@
 #include <time.h>
 #include <byteswap.h>
 #include <arpa/inet.h>
-#include <cjson/cJSON.h>
+#include "cJSON/cJSON.h"
 #include "loratap1.h"
 #include "base64.h"
 
