@@ -1,6 +1,6 @@
 # LoRaWAN Traffic Analysis Tools
 
-This repository contains the tools and materials used to obtain the dataset analyzed in the paper *Exploring LoRaWAN Traffic: In-Depth Analysis of IoT Network Communications*, available in [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7919213.svg)](https://doi.org/10.5281/zenodo.7919213)
+This repository contains the tools and materials used to obtain the dataset analyzed in the paper *Exploring LoRaWAN Traffic: In-Depth Analysis of IoT Network Communications*, available in [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8090619.svg)](https://doi.org/10.5281/zenodo.8090619)
 .
 
 The sniffer hardware comprises three IMST ic880A modules, connected to a Raspberry Pi along with a GPS and RTC. The signal path from the antenna includes a SAW filter, an LNA, and a four-way power splitter. The documentation for the motherboard hardware can be found in the `eagle` folder.
