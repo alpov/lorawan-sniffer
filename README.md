@@ -3,7 +3,7 @@
 This repository contains the tools and materials used to obtain the dataset analyzed in the paper *Exploring LoRaWAN Traffic: In-Depth Analysis of IoT Network Communications*, available in [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8090619.svg)](https://doi.org/10.5281/zenodo.8090619)
 .
 
-The sniffer hardware comprises three IMST ic880A modules, connected to a Raspberry Pi along with a GPS and RTC. The signal path from the antenna includes a SAW filter, an LNA, and a four-way power splitter. The documentation for the motherboard hardware can be found in the `eagle` folder.
+The sniffer hardware comprises three IMST ic880A modules, connected to a Raspberry Pi along with a GPS and RTC. The signal path from the antenna includes a SAW filter, an LNA, and a four-way power splitter. The documentation for the motherboard hardware including several photos can be found in the `eagle` folder.
 
 The Raspberry Pi mini-computer runs Raspberry Pi OS Lite. The ic880A modules connect via the SPI interface, the GPS through UART, and the RTC through I2C. Forks of the `lora_gateway` and `packet_forwarder` projects have been modified to support multiple SPI interfaces and the required sniffer functions (receiving packets with inverted IQ, no CRC, implicit header). Table 1 presents a list of the impacted SX1301 registers. A fork of the `ttybus` project provides GPS receiver hub support for all three instances of `packet_forwarder`, including correct GPS initialization. Configuration files and `systemd` scripts reside in the `packet_forwarder` repository.
 
@@ -23,3 +23,7 @@ Therefore, the processing follows these steps:
 * `08-csv-joinreq.sh`: Assignment of end device manufacturers based on `DevEUI`.
 * `09-tshark-beacon.sh`: Class-B beacon analysis and processing of GPS data broadcast by the gateway.
 * `run.m`: Generation of graphical statistics in MATLAB.
+
+Example screenshot of Wireshark with decrypted _confirmed data up_ frame from `03_Brno_join.pcap` source:
+
+![Wireshark](wireshark.png)
