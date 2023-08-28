@@ -33,9 +33,9 @@ xlabel('Time shift [s]'); ylabel('Total packet count'); grid on;
 ylim([0 70]);
 c2=c;
 c2(c>70) = 66;
-c3=(1:length(c))-0.4;
-c3(c>70) = c3(c>70)+2.0;
-text(c3, c2, num2str(c'), 'vert', 'bottom', 'horiz', 'center');
+c3=(1:length(c));%-0.4;
+c3(c>70) = c3(c>70)+1.6;%2.0;
+text(c3, c2, num2strex(c'), 'vert', 'bottom', 'horiz', 'center');
 %title(name4title,'Interpreter','none');
 set(findall(gcf,'-property','FontSize'),'FontSize',font)
 fig = gcf;

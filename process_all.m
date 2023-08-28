@@ -19,6 +19,7 @@ type = type(2:end);
 type = strrep(type, '_', ' ');
 name4title = sprintf('%s (%s)', city, type);
 font = 12;
+ybackoff=1.08;
 
 %% Histogram of spreading factor usage of all packets
 figure();
@@ -31,10 +32,12 @@ bar([c1' c2' c3'], 'Stacked', 'BarWidth', 0.7);
 set(gca, 'xticklabel', {'SF7', 'SF8', 'SF9', 'SF10', 'SF11', 'SF12'});
 %xlabel('Spreading factor'); 
 ylabel('Packet count per day'); grid on;
-text(1:length(c), c, num2str(round(c')), 'vert', 'bottom', 'horiz', 'center');
+ay=gca(); ay.YRuler.Exponent=3;
+text(1:length(c), c, num2strex(round(c')), 'vert', 'bottom', 'horiz', 'center');
 legend('CRC OK', 'CRC Bad', 'No CRC', 'Location', 'best');
 %title(name4title,'Interpreter','none');
 set(findall(gcf,'-property','FontSize'),'FontSize',font)
+ylimold=ylim; ylim([ylimold(1) ylimold(2)*ybackoff]);
 print(strcat(name, '_01'), '-dpng');
 
 %% Histogram of coding ratio
@@ -48,10 +51,12 @@ bar([c1' c2' c3'], 'Stacked', 'BarWidth', 0.7);
 set(gca, 'xticklabel', {'CR 4/5', 'CR 4/6', 'CR 4/7', 'CR 4/8'});
 %xlabel('Coding ratio'); 
 ylabel('Packet count per day'); grid on;
-text(1:length(c), c, num2str(round(c')), 'vert', 'bottom', 'horiz', 'center');
+ay=gca(); ay.YRuler.Exponent=3;
+text(1:length(c), c, num2strex(round(c')), 'vert', 'bottom', 'horiz', 'center');
 legend('CRC OK', 'CRC Bad', 'No CRC', 'Location', 'best');
 %title(name4title,'Interpreter','none');
 set(findall(gcf,'-property','FontSize'),'FontSize',font)
+ylimold=ylim; ylim([ylimold(1) ylimold(2)*ybackoff]);
 print(strcat(name, '_02'), '-dpng');
 
 %% Histogram of frequency channels usage of all packets
@@ -65,10 +70,12 @@ bar([c1' c2' c3'], 'Stacked', 'BarWidth', 0.7);
 set(gca, 'xticklabel', {'867.1', '867.3', '867.5', '867.7', '867.9', '868.1', '868.3', '868.5', '869.525'});
 xtickangle(45);
 xlabel('Frequency [MHz]'); ylabel('Packet count per day'); grid on;
-text(1:length(c), c, num2str(round(c')), 'vert', 'bottom', 'horiz', 'center');
+ay=gca(); ay.YRuler.Exponent=3;
+text(1:length(c), c, num2strex(round(c')), 'vert', 'bottom', 'horiz', 'center');
 legend('CRC OK', 'CRC Bad', 'No CRC', 'Location', 'best');
 %title(name4title,'Interpreter','none');
 set(findall(gcf,'-property','FontSize'),'FontSize',font)
+ylimold=ylim; ylim([ylimold(1) ylimold(2)*ybackoff]);
 print(strcat(name, '_03'), '-dpng');
 
 %% Histogram of RSSI
@@ -79,6 +86,7 @@ c2 = (histcounts(M(M(:,5)==2,col), edges) ./ numdays);
 c3 = (histcounts(M(M(:,5)==4,col), edges) ./ numdays);
 bar(-130:2:-50,[c1' c2' c3'], 'Stacked', 'BarWidth', 1);
 xlabel('RSSI [dBm]'); ylabel('Packet count per day'); grid on;
+ay=gca(); ay.YRuler.Exponent=3;
 legend('CRC OK', 'CRC Bad', 'No CRC', 'Location', 'best');
 %title(name4title,'Interpreter','none');
 set(findall(gcf,'-property','FontSize'),'FontSize',font)
@@ -92,6 +100,7 @@ c2 = (histcounts(M(M(:,5)==2,col), edges) ./ numdays);
 c3 = (histcounts(M(M(:,5)==4,col), edges) ./ numdays);
 bar(-25:1:15, [c1' c2' c3'], 'Stacked', 'BarWidth', 1);
 xlabel('SNR [dBm]'); ylabel('Packet count per day'); grid on;
+ay=gca(); ay.YRuler.Exponent=3;
 legend('CRC OK', 'CRC Bad', 'No CRC', 'Location', 'best');
 %title(name4title,'Interpreter','none');
 set(findall(gcf,'-property','FontSize'),'FontSize',font)
@@ -106,13 +115,15 @@ c3 = (histcounts(M(M(:,5)==4,col), edges) ./ numdays);
 c = c1+c2+c3;
 bar([c1' c2' c3'], 'Stacked', 'BarWidth', 0.7);
 xticks(1:length(edges)-1);
-set(gca, 'xticklabel', {'<12', '12-15', '16-19', '20-23', '24-27', '28-31', '31-34', '35-39', '40-43', '44-47', '48-51', '52-55', '>55'});
+set(gca, 'xticklabel', {'<12', strcat('12',char(8211),'15'), strcat('16',char(8211),'19'), strcat('20',char(8211),'23'), strcat('24',char(8211),'27'), strcat('28',char(8211),'31'), strcat('31',char(8211),'34'), strcat('35',char(8211),'39'), strcat('40',char(8211),'43'), strcat('44',char(8211),'47'), strcat('48',char(8211),'51'), strcat('52',char(8211),'55'), '>55'});
 xtickangle(45);
 xlabel('Data length [B]'); ylabel('Packet count per day'); grid on;
-text(1:length(c), c, num2str(round(c')), 'vert', 'bottom', 'horiz', 'center');
+ay=gca(); ay.YRuler.Exponent=3;
+text(1:length(c), c, num2strex(round(c')), 'vert', 'bottom', 'horiz', 'center');
 legend('CRC OK', 'CRC Bad', 'No CRC', 'Location', 'best');
 %title(name4title,'Interpreter','none');
 set(findall(gcf,'-property','FontSize'),'FontSize',font)
+ylimold=ylim; ylim([ylimold(1) ylimold(2)*ybackoff]);
 print(strcat(name, '_06'), '-dpng');
 
 %% Histogram of source gateways
@@ -127,10 +138,12 @@ set(gca, 'xticklabel', {'Uplink', 'Downlink RX1', 'Downlink RX2'});
 xtickangle(45);
 %xlabel('Source Gateway'); 
 ylabel('Packet count per day'); grid on;
-text(1:length(c), c, num2str(round(c')), 'vert', 'bottom', 'horiz', 'center');
+ay=gca(); ay.YRuler.Exponent=3;
+text(1:length(c), c, num2strex(round(c')), 'vert', 'bottom', 'horiz', 'center');
 legend('CRC OK', 'CRC Bad', 'No CRC', 'Location', 'best');
 %title(name4title,'Interpreter','none');
 set(findall(gcf,'-property','FontSize'),'FontSize',font)
+ylimold=ylim; ylim([ylimold(1) ylimold(2)*ybackoff]);
 print(strcat(name, '_07'), '-dpng');
 
 %% Air Time
